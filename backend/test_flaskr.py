@@ -78,7 +78,7 @@ class TriviaTestCase(unittest.TestCase):
 # remove
 
     def test_remove_questions(self):
-        res = self.client().delete('/questions/{}'.format(40))
+        res = self.client().delete('/questions/{}'.format(26))
         self.assertEqual(res.status_code, 200)
         
      
